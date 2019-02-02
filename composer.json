@@ -20,5 +20,15 @@
       "Pepijnolivier\\Poloniex\\": "src/"
     }
   },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "Pepijnolivier\\Poloniex\\PoloniexServiceProvider"
+        ],
+        "aliases": {
+            "Poloniex": "Pepijnolivier\\Poloniex\\Poloniex"
+        }
+    }
+  },
   "minimum-stability": "dev"
 }
